@@ -3,10 +3,10 @@
 class DevbridgeAgent < Formula
   desc "Mac agent that lets a Windows PC build and run apps on the iOS Simulator"
   homepage "https://github.com/adityaraja338/devbridge"
-  url "https://github.com/adityaraja338/devbridge/releases/download/v0.6.1/devbridge-0.6.1.tgz"
-  sha256 "c38fedcb30235837fa1939467887b8562a657be14431980152ca4d1b81d1d135"
+  url "https://github.com/adityaraja338/devbridge/releases/download/v0.6.2/devbridge-0.6.2.tgz"
+  sha256 "453cee949eb1b890209cf6f2e84552b20f4cfcb9a14e031542395e6294068fc4"
   license "MIT"
-  # Version 0.6.1: brew parses it from the url's devbridge-X.Y.Z.tgz file name,
+  # Version 0.6.2: brew parses it from the url's devbridge-X.Y.Z.tgz file name,
   # so there is no `version` line (brew audit calls one redundant).
 
   depends_on :macos
